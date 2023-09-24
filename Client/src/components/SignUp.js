@@ -15,7 +15,7 @@ function SignUp(props) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { name, email, password } = credentials;
-    const response = await fetch('https://notebook-fawn-theta.vercel.app/api/auth/createuser', {
+    const response = await fetch('https://notebook-b.vercel.app/api/auth/createuser', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

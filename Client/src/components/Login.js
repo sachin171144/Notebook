@@ -9,7 +9,7 @@ function Login(props) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await fetch(
-      'https://notebook-fawn-theta.vercel.app/api/auth/login',
+      'https://notebook-b.vercel.app/api/auth/login',
       {
         method: 'POST',
         headers: {
